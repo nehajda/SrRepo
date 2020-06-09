@@ -46,6 +46,8 @@ inbound:
   - message: 'GS1:locationMessage:GS1_JDA 2017.2.0'
     flow: 'flow-in-GS1-locationMessage'
   - message: 'GS1:locationMessage:GS1_JDA 2019.1.1'
+    flow: 'flow-in-GS1-locationMessage'
+  - message: 'GS1:locationMessage:GS1_JDA 2020.1.0'
     flow: 'flow-in-GS1-locationMessage'   
   - message: 'GS1:partyMessage:GS1_JDA 2017.2.0'
     flow: 'flow-in-GS1-partyMessage'
@@ -59,7 +61,6 @@ inbound:
     flow: 'flow-in-GS1-itemMessage'
   - message: 'GS1:transportInstructionMessage:GS1_JDA 2019.1.1'
     flow: 'flow-in-GS1-TransportInstruction'
-
 outbound:
   responses:
   - message: 'GS1:transportInstructionMessage:GS1_JDA 2017.2.0'
