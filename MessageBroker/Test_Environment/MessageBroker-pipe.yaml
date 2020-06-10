@@ -9,8 +9,8 @@ mb:
     jms:
       queueName: "MB_PIPE"
       brokerURL: "failover://tcp://in2npdvjdacon03:61616"
-      maxConnections: "30"
-      concurrentConsumers: "30"
+      maxConnections: "5"
+      concurrentConsumers: "3"
       initialRedeliveryDelay: "20000"
       redeliveryDelay: "20000"
       sessionCacheSize: "100"
