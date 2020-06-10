@@ -36,7 +36,7 @@ eframework:
     payload.transaction.size: 2048
 cps:
   useCps: "true"  # if false then CPS is not called and files are loaded locally
-  cpsBaseUrl: "https://localhost:9810"
+  cpsBaseUrl: "https://in2npdvjdacon03:9810"
   applicationName: “ServicesRegistry”
   profiles: "*"
   version: "*"
